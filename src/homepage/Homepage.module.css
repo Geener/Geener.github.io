@@ -1,0 +1,25 @@
+.homepage {
+    min-height: 100%;
+    height: 92.1vh;
+}
+
+.homepage h1 {
+    text-align: center;
+}
+
+.homepage img {
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+
+.homepage h3 {
+    text-align: center;
+}
+
+.homepage p {
+    text-align: center;
+}
+

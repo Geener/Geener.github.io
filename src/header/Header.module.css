@@ -1,0 +1,33 @@
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: azure;
+    background-color: black;
+}
+
+.header a {
+    font-size: 30px;
+    text-decoration: none;
+    color: azure;
+    margin-left: 10px;
+}
+
+.header a:hover {
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(0, 157, 255);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.header span {
+    font-size: 30px;
+    color: azure;
+    font-weight: 600;
+}
+
+.header span:hover {
+    cursor: pointer;
+    color: rgb(0, 157, 255);
+}

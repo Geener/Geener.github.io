@@ -1,0 +1,9 @@
+.items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+}
