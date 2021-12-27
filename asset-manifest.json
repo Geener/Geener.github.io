@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.69ddaafe.chunk.css",
-    "main.js": "/personal-portfolio/static/js/main.224ead50.chunk.js",
-    "main.js.map": "/personal-portfolio/static/js/main.224ead50.chunk.js.map",
+    "main.css": "/personal-portfolio/static/css/main.abf4272e.chunk.css",
+    "main.js": "/personal-portfolio/static/js/main.581445e0.chunk.js",
+    "main.js.map": "/personal-portfolio/static/js/main.581445e0.chunk.js.map",
     "runtime-main.js": "/personal-portfolio/static/js/runtime-main.ad335444.js",
     "runtime-main.js.map": "/personal-portfolio/static/js/runtime-main.ad335444.js.map",
-    "static/js/2.7078cd64.chunk.js": "/personal-portfolio/static/js/2.7078cd64.chunk.js",
-    "static/js/2.7078cd64.chunk.js.map": "/personal-portfolio/static/js/2.7078cd64.chunk.js.map",
+    "static/js/2.957df9d9.chunk.js": "/personal-portfolio/static/js/2.957df9d9.chunk.js",
+    "static/js/2.957df9d9.chunk.js.map": "/personal-portfolio/static/js/2.957df9d9.chunk.js.map",
     "static/js/3.22c14012.chunk.js": "/personal-portfolio/static/js/3.22c14012.chunk.js",
     "static/js/3.22c14012.chunk.js.map": "/personal-portfolio/static/js/3.22c14012.chunk.js.map",
     "index.html": "/personal-portfolio/index.html",
-    "static/css/main.69ddaafe.chunk.css.map": "/personal-portfolio/static/css/main.69ddaafe.chunk.css.map",
-    "static/js/2.7078cd64.chunk.js.LICENSE.txt": "/personal-portfolio/static/js/2.7078cd64.chunk.js.LICENSE.txt",
+    "static/css/main.abf4272e.chunk.css.map": "/personal-portfolio/static/css/main.abf4272e.chunk.css.map",
+    "static/js/2.957df9d9.chunk.js.LICENSE.txt": "/personal-portfolio/static/js/2.957df9d9.chunk.js.LICENSE.txt",
     "static/media/TASLA.9959f1de.PNG": "/personal-portfolio/static/media/TASLA.9959f1de.PNG",
     "static/media/cv.c6f52845.png": "/personal-portfolio/static/media/cv.c6f52845.png",
     "static/media/foodOrderAppScreenshot.a88d207e.png": "/personal-portfolio/static/media/foodOrderAppScreenshot.a88d207e.png",
     "static/media/grades.0043f3c7.png": "/personal-portfolio/static/media/grades.0043f3c7.png",
+    "static/media/hangman.bcb92eff.PNG": "/personal-portfolio/static/media/hangman.bcb92eff.PNG",
     "static/media/paddleBall.28059216.jpg": "/personal-portfolio/static/media/paddleBall.28059216.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ad335444.js",
-    "static/js/2.7078cd64.chunk.js",
-    "static/css/main.69ddaafe.chunk.css",
-    "static/js/main.224ead50.chunk.js"
+    "static/js/2.957df9d9.chunk.js",
+    "static/css/main.abf4272e.chunk.css",
+    "static/js/main.581445e0.chunk.js"
   ]
 }
