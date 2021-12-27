@@ -23,7 +23,7 @@ const knowledgeTree = [{
     {
         name: "Java",
         year: "2020",
-        descriptions: ["•End-to-end web and android applications", "•Suduko Solver (up to 5X5)", "•Decision Tree", "•Advanced data structures (Graph algorithms)" ],
+        descriptions: ["•End-to-end web and android applications", "•Suduko Solver (up to 5X5 puzzles)", "•Decision Tree", "•Advanced data structures (Graph algorithms)" ],
         icon: < DiJava / > ,
     },
     {
