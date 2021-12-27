@@ -2,7 +2,7 @@ import KnowledgeTree from "../knowledgeTree/KnowledgeTree"
 import Projects from "../projects/Projects";
 import Grades from "../grades/Grades";
 import Homepage from "../homepage/Homepage";
-import Cv from "../cv/Cv";
+import Cv from "../cv/CV";
 
 const MainPage = (props) => {
 

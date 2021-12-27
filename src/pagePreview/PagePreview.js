@@ -7,6 +7,14 @@ const PagePreview = (props) => {
         window.open(linky);
     }
 
+    const displayDescription = props.descriptions.map((description) => {
+        return (<p className={classes.item_text_description}>{description}</p>)
+    })
+
+    const displayBuiltWith = props.builtWith.map((language) => {
+        return (<p className={classes.item_text_builtWith}>{language}</p>)
+    })
+
     return (
         <div className={classes.item} onClick={cardClickHandler}>
 
@@ -16,8 +24,16 @@ const PagePreview = (props) => {
                     <div className={classes.item_image}>
                         <img src={props.picture} alt={props.name} />
                     </div>
-                    <h4 className={classes.item_text_description}>{props.description}</h4>
-                    <h5 className={classes.item_text_builtWith}>{props.builtWith}</h5>
+                    <div className={classes.project_info}>
+                        <div className={classes.description}>
+                            <h4>Description</h4>
+                            {displayDescription}
+                        </div>
+                        <div className={classes.builtWith}>
+                            <h4>Built With</h4>
+                            {displayBuiltWith}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

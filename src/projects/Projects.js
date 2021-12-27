@@ -7,7 +7,7 @@ const Projects = () => {
 
     const ProjectCards = projects.map((project) => {
         return (
-            <PagePreview name={project.name} description={project.description} builtWith={project.builtWith} picture={project.picture} link={project.link} />
+            <PagePreview name={project.name} descriptions={project.descriptions} builtWith={project.builtWith} picture={project.picture} link={project.link} />
         );
     });
 

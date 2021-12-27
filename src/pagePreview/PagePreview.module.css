@@ -18,3 +18,44 @@
     max-width: 100%;
     box-shadow: 0 5px 10px 0 black;
 }
+
+.project_info {
+    display: flex;
+    font-weight: 400;
+}
+
+.description {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.description h4 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+
+.builtWith {
+    display: flex;
+    width: 40%;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.builtWith p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+} 
+
+.builtWith h4 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}

@@ -1,6 +1,6 @@
 import CvPic from "../images/cv.png"
 
-import classes from "./Cv.module.css"
+import classes from "./CV.module.css"
 
 const Cv = () => {
     return (<div className={classes.cv}>
