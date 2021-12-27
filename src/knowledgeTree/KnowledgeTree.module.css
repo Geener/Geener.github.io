@@ -1,11 +1,12 @@
 .title {
     text-align: center;
     font-size: 40px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 .timeline ul {
     padding: 50px 0;
+    margin-top: 0px;
 }
 
 .timeline div {
@@ -16,6 +17,8 @@
 
 /* Branch Title Div */
 .timeline h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
     background-color: rgb(47, 47, 250);
     padding: .4Rem 0;
     font-size: 2.3rem;
@@ -97,4 +100,10 @@
 .timeline h2 {
     color: azure;
     align-items: center;
+}
+
+.description {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 17px;
 }

@@ -27,15 +27,21 @@ const KnowledgeTree = (props) => {
     // window.addEventListener('load', run);
     // window.addEventListener('resize', run);
     // window.addEventListener('scroll', run);
+    
 
 
     const treeBranches = knowledgeTree.map((branch) => {
+
+        const displayDescription = branch.descriptions.map((description) => {
+            return (<p className={classes.description}>{description}</p>)
+        })
+
         return (
             <div >
                 <li>
                     <div className={classes.cv}>
                         <h2>{branch.icon} {branch.name}</h2>
-                        <p>{branch.description}</p>
+                        {displayDescription}
                     </div>
                 </li>
             </div>)

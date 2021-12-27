@@ -3,6 +3,7 @@ import TASLAPic from "./images/TASLA.PNG"
 import CVPic from "./images/cv.png"
 import GradesPic from "./images/grades.png"
 import paddleBallPic from "./images/paddleBall.jpg"
+import hangmanPic from "./images/hangman.PNG"
 
 const projects = [{
         name: "Library Management Application",
@@ -26,12 +27,19 @@ const projects = [{
         link: "/"
     },
     {
+        name: "Hangman",
+        descriptions: ["•Allows users to play hangman game", "•Words are taken from an API", "•Can adjust game difficulty"],
+        builtWith: ["•JavaScript", "API"],
+        picture: hangmanPic,
+        link: "https://hangmanboy.netlify.app/awd"
+    },
+    {
         name: "Car Shop Application",
         descriptions: ["•Allows managers and technicians to schedule and edit appointments", "•Allows customers to manage and book different appointments"],
         builtWith: ["•Java", "•Gradle", "•UML class diagram", "•State Diagrams", "•Tested with JUnit"],
         picture: null,
         link: "/"
-    },
+    }, 
 ]
 
 export {

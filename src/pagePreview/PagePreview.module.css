@@ -22,6 +22,7 @@
 .project_info {
     display: flex;
     font-weight: 400;
+    justify-content: center;
 }
 
 .description {
