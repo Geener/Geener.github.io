@@ -4,7 +4,7 @@ import classes from "./CV.module.css"
 
 const Cv = () => {
     return (<div className={classes.cv}>
-        <h1>My CVv</h1>
+        <h1>My CV</h1>
         <img src={CvPic}></img>
     </div>)
 }

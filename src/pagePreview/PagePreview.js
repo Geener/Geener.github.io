@@ -4,7 +4,12 @@ const PagePreview = (props) => {
     let linky = props.link;
 
     const cardClickHandler = () => {
-        window.open(linky);
+
+        if (typeof linky === "function") {
+            linky()
+        } else {
+            window.open(linky);
+        }
     }
 
     const displayDescription = props.descriptions.map((description) => {

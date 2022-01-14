@@ -28,7 +28,6 @@ const Header = (props) => {
     }
 
     const clickHandlerKnowledgeTree = () => {
-        console.log("hi")
         props.stateHandler("knowledgeTree")
         updateIconColor("knowledgeTree")
     }

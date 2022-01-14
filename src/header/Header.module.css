@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     color: azure;
-    background-color: black;
+    background-color: #333;
 }
 
 .header a {
@@ -13,11 +13,8 @@
     margin-left: 10px;
 }
 
-.header a:hover {
-    font-size: 30px;
-    text-decoration: none;
+.header a:hover  {
     color: rgb(0, 157, 255);
-    margin-left: 10px;
     cursor: pointer;
 }
 

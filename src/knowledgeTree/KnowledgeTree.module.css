@@ -19,11 +19,13 @@
 .timeline h2 {
     margin-top: 0px;
     margin-bottom: 0px;
-    background-color: rgb(47, 47, 250);
+    background-color: #333;
     padding: .4Rem 0;
     font-size: 2.3rem;
     border-radius: 20px;
 }
+
+
 
 .timeline li {
     list-style: none;
@@ -31,7 +33,7 @@
     width: 6px;
     margin: 0 auto;
     padding-top: 50px;
-    background-color: azure
+    background-color: #333
 }
 
 .timeline li div {
@@ -39,12 +41,13 @@
     bottom: 0;
     width: 400px;
     padding: 1rem;
-    background-color: rgb(0, 157, 255);
+    background-color: lightgrey;
     transition: all 0.5s ease-in-out;
 }
 
 .timeline li div:hover {
-    background-color: rgb(0, 120, 194);
+    background-color: #333;
+    color: azure;
 }
 
 .timeline li:after {
@@ -54,7 +57,7 @@
     bottom: 0;
     width: 25px;
     height: 25px;
-    background-color: azure;
+    background-color: #333;
     transform: translateX(-50%);
     border-radius: 50%;
     transition: background 0.5 ease-in-out;
@@ -86,14 +89,14 @@
 .timeline ul div:nth-child(odd) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent rgb(0, 157, 255) transparent transparent;
+    border-color: transparent lightgray transparent transparent;
 }
 
 /* Left Side Arrows */
 .timeline ul div:nth-child(even) div::before {
     right: -15px;
     border-width: 8px 0px 8px 16px;
-    border-color: transparent transparent transparent rgb(0, 157, 255);
+    border-color: transparent transparent transparent lightgray;
 }
 
 /* Branch Title */

@@ -4,6 +4,7 @@ import CVPic from "./images/cv.png"
 import GradesPic from "./images/grades.png"
 import paddleBallPic from "./images/paddleBall.jpg"
 import hangmanPic from "./images/hangman.PNG"
+import carshopPic from "../src/images/carShopApp.jpg"
 
 const projects = [{
         name: "Library Management Application",
@@ -24,21 +25,25 @@ const projects = [{
         descriptions: ["•Allows user to play versus a computer controlled opponent", "•Scoreboard with game history", "•Able to adjust game settings"],
         builtWith: ["•Java", "•ACM Library"],
         picture: paddleBallPic,
-        link: "/"
+        link: () => {
+            alert("There is no link available")
+        }
     },
     {
         name: "Hangman",
         descriptions: ["•Allows users to play hangman game", "•Words are taken from an API", "•Can adjust game difficulty"],
         builtWith: ["•JavaScript", "API"],
         picture: hangmanPic,
-        link: "https://hangmanboy.netlify.app/awd"
+        link: "https://hangmanboy.netlify.app/"
     },
     {
         name: "Car Shop Application",
         descriptions: ["•Allows managers and technicians to schedule and edit appointments", "•Allows customers to manage and book different appointments"],
         builtWith: ["•Java", "•Gradle", "•UML class diagram", "•State Diagrams", "•Tested with JUnit"],
-        picture: null,
-        link: "/"
+        picture: carshopPic,
+        link: () => {
+            alert("There is no link available")
+        }
     }, 
 ]
 
