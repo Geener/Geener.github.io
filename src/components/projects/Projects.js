@@ -13,7 +13,6 @@ const Projects = () => {
 
     return (
         <div>
-            <h1 className="title" >My Projects</h1>
             <div className="items" >
                 {ProjectCards}
             </div>

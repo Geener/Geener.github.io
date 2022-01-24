@@ -49,7 +49,6 @@ const KnowledgeTree = (props) => {
 
     return (
         <>
-            <h1 className="title">My Coding History</h1>
             <div className="timeline">
                 <ul>
                     {treeBranches}

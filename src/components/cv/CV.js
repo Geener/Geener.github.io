@@ -4,8 +4,7 @@ import "./CV.scss"
 
 const Cv = () => {
     return (<div className="cv">
-        <h1>My CV</h1>
-        <img src={CvPic}></img>
+        <img src={CvPic} alt="CV_pic"></img>
     </div>)
 }
 

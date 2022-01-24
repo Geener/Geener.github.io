@@ -17,7 +17,11 @@
     cursor: pointer;
 }
 
+.header span {
+    color: azure;
+    font-size: 30px;
+}
+
 .selected_color {
     color: rgb(0, 157, 255) !important;
-    // margin-left: 40px;
 }

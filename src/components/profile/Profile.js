@@ -1,4 +1,6 @@
 import { RiMapPinLine } from "react-icons/ri"
+import { projects, extraCurriculars } from "../../data/sliderData"
+import Poster from "../poster/Poster"
 import Slider from "../slider/Slider";
 
 import "./Profile.scss"
@@ -14,6 +16,21 @@ const UserProfile = props => {
         profilePic: "https://wallpaper.dog/large/6540.png",
         coverPic: "https://i.imgur.com/fcmOkKA.jpeg"
     };
+
+    const CVclickHandler = () => {
+        props.stateHandler("CV")
+    }
+
+    const projectPosters = projects.map(project => {
+        console.log(project.name)
+        return (<Poster key={project.name} name={project.name} link={project.link} picture={project.picture} />)
+    })
+
+    const extraCurricularsPosters = extraCurriculars.map(extraCurricular => {
+        console.log(extraCurricular.name)
+        return (<Poster name={extraCurricular.name} link={extraCurricular.link} picture={extraCurricular.picture} />)
+    })
+    
 
     return (
         <div className="body">
@@ -36,10 +53,11 @@ const UserProfile = props => {
                 </div>
                 <div className="buttons">
                     <div className="button">Contact</div>
-                    <div className="button">CV</div>
+                    <div className="button" onClick={CVclickHandler}>CV</div>
                 </div>
             </div>
-            <Slider />
+            <Slider data={projectPosters} title="Projects"/>
+            <Slider data={extraCurricularsPosters} title="Extracurriculars"/>
         </div>
     )
 }

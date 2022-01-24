@@ -4,7 +4,6 @@ const PagePreview = (props) => {
     let linky = props.link;
 
     const cardClickHandler = () => {
-
         if (typeof linky === "function") {
             linky()
         } else {

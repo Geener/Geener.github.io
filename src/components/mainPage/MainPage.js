@@ -8,11 +8,10 @@ const MainPage = (props) => {
 
     return (
         <>
-            {props.state === "profile" && <Profile />}
-            {props.state === "knowledgeTree" && <KnowledgeTree />}
-            {props.state === "cv" && <Cv />}
-            {props.state === "projects" && <Projects />}
-            {props.state === "grades" && <Grades />}
+            {props.curState === "My Profile" && <Profile stateHandler={props.stateHandler}/>}
+            {props.curState === "Knowledge Tree" && <KnowledgeTree />}
+            {props.curState === "CV" && <Cv />}
+            {props.curState === "My Projects" && <Projects />}
         </>
     );
 };

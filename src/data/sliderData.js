@@ -3,6 +3,11 @@ import TASLAPic from "../images/TASLA.PNG"
 import paddleBallPic from "../images/paddleBall.jpg"
 import hangmanPic from "../images/hangman.PNG"
 import carshopPic from "../images/carShopApp.jpg"
+import TAMIDpic from "../images/TAMID.jpg"
+import BikingAdventuresPic from "../images/TheBikingAdventures.png"
+import McHacksPic from "../images/McHacks.png"
+
+
 
 const projects = [{
     name: "Library Management Application",
@@ -40,4 +45,24 @@ const projects = [{
 },
 ]
 
-export { projects };
+const extraCurriculars = [{
+        name: "TAMID Tech Track",
+        title: "Project Manager",
+        link: "https://tamidgroup.org/",
+        picture: TAMIDpic
+    }, 
+    {
+        name: "The Biking Adventures",
+        title: "Co-Founder",
+        link: "https://www.facebook.com/TheBikingAdventures",
+        picture: BikingAdventuresPic
+    },
+    {
+        name: "McHacks",
+        title: "Participant",
+        link: null,
+        picture: McHacksPic
+    }
+]
+
+export { projects, extraCurriculars };

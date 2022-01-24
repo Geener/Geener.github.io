@@ -5,71 +5,40 @@ import { AiFillLinkedin } from 'react-icons/ai';
 import { DiCode } from 'react-icons/di';
 import { GiCheckboxTree } from 'react-icons/gi';
 import { IoIosPaper } from 'react-icons/io';
+import { CgProfile } from "react-icons/cg"
 
 
 const Header = (props) => {
 
-    const cvIcon = document.getElementById("cv");
-    const projectsIcon = document.getElementById("projects");
-    const knowledgeTreeIcon = document.getElementById("knowledgeTree");
-    const myName = document.getElementById("myName");
-
-    const updateIconColor = (iconName) => {
-        console.log(myName)
-
-        
-
-        if (knowledgeTreeIcon.classList.contains("selected_color")) {
-            knowledgeTreeIcon.classList.remove("selected_color");
-        }
-
-        if (projectsIcon.classList.contains("selected_color")) {
-            projectsIcon.classList.remove("selected_color");
-        }
-
-        if (cvIcon.classList.contains("selected_color")) {
-            cvIcon.classList.remove("selected_color");
-        }
-
-        if (myName.classList.contains("selected_color")) {
-            myName.classList.remove("selected_color");
-        }
-
-        console.log(iconName)
-        iconName.classList.add("selected_color");
-    }
+    const curState = props.curState    
 
     const clickHandlerProjects = () => {
-        updateIconColor(projectsIcon)
-        props.stateHandler("projects")
-
+        props.stateHandler("My Projects")
     }
 
     const clickHandlerCv = () => {
-        updateIconColor(cvIcon)
-        props.stateHandler("cv")
-
+        props.stateHandler("CV")
     }
 
     const clickHandlerKnowledgeTree = () => {
-        updateIconColor(knowledgeTreeIcon)
-        props.stateHandler("knowledgeTree")
-
+        props.stateHandler("Knowledge Tree")
     }
 
     const clickHandlerHomepage = () => {
-        updateIconColor(myName)
-        props.stateHandler("profile")
+        props.stateHandler("My Profile")
     }
+
+    
 
     return (
         <div className="header">
             <div>
-                <a id="projects" onClick={clickHandlerProjects}><DiCode /></a>
-                <a id="knowledgeTree" onClick={clickHandlerKnowledgeTree}><GiCheckboxTree /></a>
-                <a id="cv" onClick={clickHandlerCv}><IoIosPaper /></a>
+                <a className={curState == "My Profile" ? "selected_color" : ""} onClick={clickHandlerHomepage}><CgProfile /></a>
+                <a className={curState == "My Projects" ? "selected_color" : ""} onClick={clickHandlerProjects}><DiCode /></a>
+                <a className={curState == "Knowledge Tree" ? "selected_color" : ""} onClick={clickHandlerKnowledgeTree}><GiCheckboxTree /></a>
+                <a className={curState == "CV" ? "selected_color" : ""} onClick={clickHandlerCv}><IoIosPaper /></a>
             </div>
-            <a id="myName" className="selected-color" onClick={clickHandlerHomepage}>Adam Geenen</a>
+            <span id="myName" className="selected-color">{props.curState}</span>
             <div>
                 <a href="https://github.com/Geener" target="_blank"><AiFillGithub /></a>
                 <a href="https://www.linkedin.com/in/adamgeenen/" target="_blank"><AiFillLinkedin /></a>
