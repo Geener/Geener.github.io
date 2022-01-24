@@ -18,6 +18,7 @@ const Poster = props => {
                 <img src={props.picture} alt={props.name}/>
             </div>
             <span>{props.name}</span>
+            {props.title && <span id="poster-title">{props.title}</span>}
         </div>
     )
 }

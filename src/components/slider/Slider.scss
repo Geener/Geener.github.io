@@ -3,6 +3,10 @@
     margin-right: 40px;
 }
 
+.row-background:last-child {
+    padding-bottom: 40px;
+}
+
 .row-title {
     color: azure;
     margin-left: 40px;
@@ -18,19 +22,23 @@
     padding: 20px;
 }
 
-.row::-webkit-scrollbar {
-    // display: none;
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #333;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: black;
+    // cursor: pointer;
 }
-
-// .arrows {
-//     align-self: center;
-//     margin-right: 5px;
-//     color: azure;
-//     width: 10rem;
-//     height: 2rem;
-// }
-
-// .arrows:hover {
-//     cursor: pointer;
-//     color: lightgray;
-// }

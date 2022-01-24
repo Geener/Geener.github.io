@@ -28,7 +28,7 @@ const UserProfile = props => {
 
     const extraCurricularsPosters = extraCurriculars.map(extraCurricular => {
         console.log(extraCurricular.name)
-        return (<Poster name={extraCurricular.name} link={extraCurricular.link} picture={extraCurricular.picture} />)
+        return (<Poster name={extraCurricular.name} link={extraCurricular.link} picture={extraCurricular.picture} title={extraCurricular.title}/>)
     })
     
 
