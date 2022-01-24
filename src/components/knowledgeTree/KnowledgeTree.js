@@ -1,5 +1,5 @@
-import { knowledgeTree } from "../knowledgeTreeData"
-import classes from "./KnowledgeTree.module.css"
+import { knowledgeTree } from "../../data/knowledgeTreeData"
+import "./KnowledgeTree.scss"
 
 const KnowledgeTree = (props) => {
 
@@ -27,19 +27,19 @@ const KnowledgeTree = (props) => {
     // window.addEventListener('load', run);
     // window.addEventListener('resize', run);
     // window.addEventListener('scroll', run);
-    
+
 
 
     const treeBranches = knowledgeTree.map((branch) => {
 
         const displayDescription = branch.descriptions.map((description) => {
-            return (<p className={classes.description}>{description}</p>)
+            return (<p className="description">{description}</p>)
         })
 
         return (
             <div >
                 <li>
-                    <div className={classes.cv}>
+                    <div className="cv">
                         <h2>{branch.icon} {branch.name}</h2>
                         {displayDescription}
                     </div>
@@ -49,8 +49,8 @@ const KnowledgeTree = (props) => {
 
     return (
         <>
-            <h1 className={classes.title}>My Coding History</h1>
-            <div className={classes.timeline}>
+            <h1 className="title">My Coding History</h1>
+            <div className="timeline">
                 <ul>
                     {treeBranches}
                 </ul>

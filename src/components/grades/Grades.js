@@ -1,10 +1,10 @@
-import { GradesPic } from "../projectsData";
-import classes from "./Grades.module.css"
+import { GradesPic } from "../../data/projectsData";
+import "./Grades.scss"
 
 const Grades = () => {
 
     return (
-        <div className={classes.grades}>
+        <div className="grades">
             <img src={GradesPic} alt="My Grades" />
         </div>
     )

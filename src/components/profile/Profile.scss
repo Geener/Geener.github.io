@@ -1,0 +1,104 @@
+body {
+    background-image: url('https://media1.giphy.com/media/l2v1YQMVH8rEAstMyK/giphy.gif?cid=ecf05e47msi8ans2qtze7ah0vw76g6vwkqken16fo1okdka4&rid=giphy.gif&ct=g');
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.body {
+    background-color: gray;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80vh;
+    // height: 100%;
+}
+
+.align {
+    display: flex;
+    justify-content: space-between;
+}
+
+.align h1 {
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-size: 3rem;
+}
+
+.align h4 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 1.3rem;
+}
+
+.align h5 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 1.1rem;
+}
+
+.text p {
+    margin-bottom: 0px;
+}
+
+.coverPic img {
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 150px;
+}
+
+.mainSection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profilePic {
+    align-self: center
+}
+
+.profilePic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 120px;
+    margin-top: 10px;
+}
+
+.text {
+    color: whitesmoke;
+    align-self: center;
+    // justify-self: ;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.button {
+    background-color: #333;
+    border-radius: 25px;
+    text-align: center;
+    width: 8rem;
+    border: 3px solid whitesmoke;
+    height: 2.5rem;
+    vertical-align: middle;
+    line-height: 2.5rem;  
+    font-size: 1.5rem;
+    color: whitesmoke;
+    align-self: center;
+    justify-self: flex-end;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: black;
+    border-color: #333;
+    color: lightgray;
+}
+
+.new_line {
+    white-space: pre-line;
+}

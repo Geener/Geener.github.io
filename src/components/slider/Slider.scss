@@ -1,0 +1,27 @@
+.row-background {
+}
+
+.row-title {
+    color: azure;
+    margin-left: 40px;
+    margin-bottom: 2px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrows {
+    // margin-top: 50px;
+    align-self: center;
+    margin-right: 5px;
+    color: azure;
+    width: 10rem;
+    height: 2rem;
+}
+
+.arrows:hover {
+    cursor: pointer;
+    color: lightgray;
+}

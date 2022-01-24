@@ -1,16 +1,14 @@
 import { useState } from "react"
 
-
-import classes from "./App.module.css"
-import MainPage from "./mainPage/MainPage";
-import Header from "./header/Header";
+import classes from "./App.module.scss"
+import MainPage from "./components/mainPage/MainPage";
+import Header from "./components/header/Header";
 
 function App() {
 
-  const [pageState, setPageState] = useState("projects")
+  const [pageState, setPageState] = useState("profile")
 
   const editState = (state) => {
-    console.log(state)
     setPageState(state);
   }
 

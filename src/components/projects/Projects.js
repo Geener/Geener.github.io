@@ -1,7 +1,7 @@
-import { projects } from "../projectsData";
+import { projects } from "../../data/projectsData";
 import PagePreview from "../pagePreview/PagePreview"
 
-import classes from "./Projects.module.css"
+import "./Projects.scss"
 
 const Projects = () => {
 
@@ -12,9 +12,9 @@ const Projects = () => {
     });
 
     return (
-        <div className={classes.container}>
-            <h1 className={classes.title}>My Projects</h1>
-            <div className={classes.items}>
+        <div>
+            <h1 className="title" >My Projects</h1>
+            <div className="items" >
                 {ProjectCards}
             </div>
         </div>

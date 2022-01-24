@@ -1,0 +1,34 @@
+.container {
+    text-align: center;
+    background-color: #333;
+    margin-left: 5px;
+    margin-right: 5px;
+    // margin-bottom: 0px;
+    width: 100%;
+    // height: 100%;
+    // vertical-align: middle
+}
+
+.container img {
+    opacity: 0.5;
+    // height: 50px;
+}
+
+.container:hover {
+    cursor: pointer;
+    color: azure;
+    background-color: black;
+}
+
+.container img:hover {
+    opacity: 1;
+}
+
+.container span {
+    margin-top: 2px;
+}
+
+.container img {
+    width: 100%;
+    height: 60%;
+}

@@ -1,4 +1,4 @@
-import classes from "./PagePreview.module.css"
+import "./PagePreview.scss"
 
 const PagePreview = (props) => {
     let linky = props.link;
@@ -13,28 +13,28 @@ const PagePreview = (props) => {
     }
 
     const displayDescription = props.descriptions.map((description) => {
-        return (<p className={classes.item_text_description}>{description}</p>)
+        return (<p className="item_text_description">{description}</p>)
     })
 
     const displayBuiltWith = props.builtWith.map((language) => {
-        return (<p className={classes.item_text_builtWith}>{language}</p>)
+        return (<p className="item_text_builtWith">{language}</p>)
     })
 
     return (
-        <div className={classes.item} onClick={cardClickHandler}>
+        <div className="item" onClick={cardClickHandler}>
 
-            <div className={classes.item_text}>
-                <div className={classes.item_text_wrap}>
-                    <h1 className={classes.item_text_title}>{props.name}</h1>
-                    <div className={classes.item_image}>
+            <div className="item_text">
+                <div className="item_text_wrap">
+                    <h1 className="item_text_title">{props.name}</h1>
+                    <div className="item_image">
                         <img src={props.picture} alt={props.name} />
                     </div>
-                    <div className={classes.project_info}>
-                        <div className={classes.description}>
+                    <div className="project_info">
+                        <div className="description">
                             <h4>Description</h4>
                             {displayDescription}
                         </div>
-                        <div className={classes.builtWith}>
+                        <div className="builtWith">
                             <h4>Built With</h4>
                             {displayBuiltWith}
                         </div>
