@@ -6,20 +6,16 @@
     margin-left: 8px;
     margin-right: 8px;
     align-items: center;
-    // background-color: lightblue;
     opacity: 0.95;
     color: azure;
-    // max-height: 20px;
 }
 
 .container:hover {
     cursor: pointer;
     opacity: 1;
-    // width: 115%;
 }
 
 .container img {
-    // width: 100%;
     max-width: 450px;
     max-height: 220px;
     transition: transform 450ms;

@@ -65,6 +65,7 @@
     width: 0;
     height: 0;
     border-style: solid;
+    // color: #333;
 }
 
 /* Right side div */
@@ -81,16 +82,16 @@
 
 /* Right Side Arrows */
 .timeline ul div:nth-child(odd) div::before {
-    left: -15px;
+    left: -16px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent lightgray transparent transparent;
+    border-color: transparent #333 transparent transparent;
 }
 
 /* Left Side Arrows */
 .timeline ul div:nth-child(even) div::before {
-    right: -15px;
+    right: -16px;
     border-width: 8px 0px 8px 16px;
-    border-color: transparent transparent transparent lightgray;
+    border-color: transparent transparent transparent #333;
 }
 
 /* Branch Title */

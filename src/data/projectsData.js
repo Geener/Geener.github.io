@@ -5,6 +5,8 @@ import GradesPic from "../images/grades.png"
 import paddleBallPic from "../images/paddleBall.jpg"
 import hangmanPic from "../images/hangman.PNG"
 import carshopPic from "../images/carShopApp.jpg"
+import hangmanTwilio from "../images/hangmanTwilio.PNG"
+
 
 const projects = [{
     name: "Library Management Application",
@@ -21,18 +23,9 @@ const projects = [{
     link: "/food-order-app"
 },
 {
-    name: "Paddle Ball Game",
-    descriptions: ["•Allows user to play versus a computer controlled opponent", "•Scoreboard with game history", "•Able to adjust game settings"],
-    builtWith: ["•Java", "•ACM Library"],
-    picture: paddleBallPic,
-    link: () => {
-        alert("There is no link available")
-    }
-},
-{
     name: "Hangman",
     descriptions: ["•Allows users to play hangman game", "•Words are taken from an API", "•Can adjust game difficulty"],
-    builtWith: ["•JavaScript", "API"],
+    builtWith: ["•JavaScript", "•API"],
     picture: hangmanPic,
     link: "https://hangmanboy.netlify.app/"
 },
@@ -41,6 +34,23 @@ const projects = [{
     descriptions: ["•Allows managers and technicians to schedule and edit appointments", "•Allows customers to manage and book different appointments"],
     builtWith: ["•Java", "•Gradle", "•UML class diagram", "•State Diagrams", "•Tested with JUnit"],
     picture: carshopPic,
+    link: () => {
+        alert("There is no link available")
+    }
+},
+{
+    name: "Hangman Twilio",
+    descriptions: ["•Built for McHacks 9", "•Hangman game using Twilio API"],
+    builtWith: ["•JavaScript", "•Twilio API"],
+    picture: hangmanTwilio,
+    link: "https://youtu.be/t-ToQBkY5Mc"
+
+},
+{
+    name: "Paddle Ball Game",
+    descriptions: ["•Allows user to play versus a computer controlled opponent", "•Scoreboard with game history", "•Able to adjust game settings"],
+    builtWith: ["•Java", "•ACM Library"],
+    picture: paddleBallPic,
     link: () => {
         alert("There is no link available")
     }

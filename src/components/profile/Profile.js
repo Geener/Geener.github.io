@@ -2,6 +2,7 @@ import { RiMapPinLine } from "react-icons/ri"
 import { projects, extraCurriculars } from "../../data/sliderData"
 import Poster from "../poster/Poster"
 import Slider from "../slider/Slider";
+import profilePic from "../../images/profilePic.jpg"
 
 import "./Profile.scss"
 
@@ -13,8 +14,8 @@ const UserProfile = props => {
         location: "Montreal, Canada",
         bio: "Motivated student who has a passion for technology. \n Enjoys learning the innerworkings of systems and developing end-to-end software. Experience front and back-end development. \n Curious to learn and explore more in Web and App Development.\nActively looking for internships in Software Engineering and Artificial Intelligence departments.",
         school: "Software Engineering @ McGill University",
-        profilePic: "https://wallpaper.dog/large/6540.png",
-        coverPic: "https://i.imgur.com/fcmOkKA.jpeg"
+        profilePic: profilePic,
+        coverPic: "https://www.ionos.ca/digitalguide/fileadmin/DigitalGuide/Teaser/code-editoren-t.jpg"
     };
 
     const CVclickHandler = () => {
@@ -28,7 +29,7 @@ const UserProfile = props => {
 
     const extraCurricularsPosters = extraCurriculars.map(extraCurricular => {
         console.log(extraCurricular.name)
-        return (<Poster name={extraCurricular.name} link={extraCurricular.link} picture={extraCurricular.picture} title={extraCurricular.title}/>)
+        return (<Poster name={extraCurricular.name} link={extraCurricular.link} picture={extraCurricular.picture} title={extraCurricular.title} scrollBar="true"/>)
     })
     
 
@@ -52,7 +53,7 @@ const UserProfile = props => {
                     <p className="new_line" >{user.bio}</p>
                 </div>
                 <div className="buttons">
-                    <div className="button">Contact</div>
+                    <a className="button" href="mailto:adamgeenen@gmail.com">Contact</a>
                     <div className="button" onClick={CVclickHandler}>CV</div>
                 </div>
             </div>

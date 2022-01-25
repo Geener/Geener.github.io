@@ -16,7 +16,7 @@ const PagePreview = (props) => {
     })
 
     const displayBuiltWith = props.builtWith.map((language) => {
-        return (<p className="item_text_builtWith">{language}</p>)
+        return (<p className="item_text_description">{language}</p>)
     })
 
     return (
