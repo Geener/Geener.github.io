@@ -15,7 +15,7 @@ const UserProfile = props => {
         bio: "Motivated student who has a passion for technology. \n Enjoys learning the innerworkings of systems and developing end-to-end software. Experience front and back-end development. \n Curious to learn and explore more in Web and App Development.\nActively looking for internships in Software Engineering and Artificial Intelligence departments.",
         school: "Software Engineering @ McGill University",
         profilePic: profilePic,
-        coverPic: "https://images.unsplash.com/photo-1484291470158-b8f8d608850d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80"
+        coverPic: "https://cdn.statically.io/img/i.pinimg.com/originals/2d/8e/c0/2d8ec08d2a34ac48fcad7824bf00d7d1.jpg"
     };
 
     const CVclickHandler = () => {
