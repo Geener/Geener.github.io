@@ -15,7 +15,7 @@ const UserProfile = props => {
         bio: "Motivated student who has a passion for technology. \n Enjoys learning the innerworkings of systems and developing end-to-end software. Experience front and back-end development. \n Curious to learn and explore more in Web and App Development.\nActively looking for internships in Software Engineering and Artificial Intelligence departments.",
         school: "Software Engineering @ McGill University",
         profilePic: profilePic,
-        coverPic: "https://www.ionos.ca/digitalguide/fileadmin/DigitalGuide/Teaser/code-editoren-t.jpg"
+        coverPic: "https://images.unsplash.com/photo-1484291470158-b8f8d608850d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80"
     };
 
     const CVclickHandler = () => {
@@ -29,9 +29,9 @@ const UserProfile = props => {
 
     const extraCurricularsPosters = extraCurriculars.map(extraCurricular => {
         console.log(extraCurricular.name)
-        return (<Poster name={extraCurricular.name} link={extraCurricular.link} picture={extraCurricular.picture} title={extraCurricular.title} scrollBar="true"/>)
+        return (<Poster name={extraCurricular.name} link={extraCurricular.link} picture={extraCurricular.picture} title={extraCurricular.title} scrollBar="true" />)
     })
-    
+
 
     return (
         <div className="body">
@@ -57,8 +57,8 @@ const UserProfile = props => {
                     <div className="button" onClick={CVclickHandler}>CV</div>
                 </div>
             </div>
-            <Slider data={projectPosters} title="Projects"/>
-            <Slider data={extraCurricularsPosters} title="Extracurriculars"/>
+            <Slider data={projectPosters} title="Projects" />
+            <Slider data={extraCurricularsPosters} title="Extracurriculars" />
         </div>
     )
 }

@@ -10,7 +10,7 @@ import { CgProfile } from "react-icons/cg"
 
 const Header = (props) => {
 
-    const curState = props.curState    
+    const curState = props.curState
 
     const clickHandlerProjects = () => {
         props.stateHandler("My Projects")
@@ -28,15 +28,15 @@ const Header = (props) => {
         props.stateHandler("My Profile")
     }
 
-    
+
 
     return (
         <div className="header">
             <div>
-                <a className={curState == "My Profile" ? "selected_color" : ""} onClick={clickHandlerHomepage}><CgProfile /></a>
-                <a className={curState == "My Projects" ? "selected_color" : ""} onClick={clickHandlerProjects}><DiCode /></a>
-                <a className={curState == "Knowledge Tree" ? "selected_color" : ""} onClick={clickHandlerKnowledgeTree}><GiCheckboxTree /></a>
-                <a className={curState == "CV" ? "selected_color" : ""} onClick={clickHandlerCv}><IoIosPaper /></a>
+                <a className={curState === "My Profile" ? "selected_color" : ""} onClick={clickHandlerHomepage}><CgProfile /></a>
+                <a className={curState === "My Projects" ? "selected_color" : ""} onClick={clickHandlerProjects}><DiCode /></a>
+                <a className={curState === "Knowledge Tree" ? "selected_color" : ""} onClick={clickHandlerKnowledgeTree}><GiCheckboxTree /></a>
+                <a className={curState === "CV" ? "selected_color" : ""} onClick={clickHandlerCv}><IoIosPaper /></a>
             </div>
             <span id="myName" className="selected-color">{props.curState}</span>
             <div>
