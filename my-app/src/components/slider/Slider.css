@@ -1,0 +1,44 @@
+.row-background {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.row-background:last-child {
+    padding-bottom: 40px;
+}
+
+.row-title {
+    color: azure;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #333;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: black;
+    /* // cursor: pointer; */
+}
