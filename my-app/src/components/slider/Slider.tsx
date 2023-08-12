@@ -1,4 +1,4 @@
-import "./Slider.scss"
+import "./Slider.css"
 import {FC} from "react"
 
 interface propTypes {
@@ -13,8 +13,8 @@ const Slider: FC<propTypes> = (props) => {
         <div>
             <h2 className="row-title">{props.title}</h2>
         </div>
-        <div className="row">
-            {props.data}
+        <div className="row">yo
+            {/* {props.data} */}
         </div>
     </div>)
 }

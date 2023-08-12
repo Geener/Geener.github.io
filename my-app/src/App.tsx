@@ -1,24 +1,15 @@
-import './App.css';
-import { useState } from "react"
-import ParticlesBackground from './components/particles/Particles';
+import Internships from "./components/internships/Interships";
+import ParticlesComponent from "./components/particles/Particles";
+import "./App.css";
 
-
-import Header from './components/header/Header';
-import WelcomePage from './pages/welcome/WelcomePage';
-import Internships from './components/internships/Interships';
-
-function App() {
-  const [curPage, setCurPage] = useState("WelcomePage")
-
-  
-
+const App = () => {
   return (
-    <div className='App.css'>
-      <ParticlesBackground />
+    <div>
+      <ParticlesComponent />
       <h1>Hello</h1>
       <Internships />
     </div>
   );
-}
+};
 
 export default App;
