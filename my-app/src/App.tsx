@@ -4,10 +4,15 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div>
-      <ParticlesComponent />
-      <h1>Hello</h1>
-      <Internships />
+    <div className="test">
+      <div className="content">
+        <h1>Hello</h1>
+        <Internships />
+      </div>
+
+      <div className="particles">
+        <ParticlesComponent />
+      </div>
     </div>
   );
 };

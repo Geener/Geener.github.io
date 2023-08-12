@@ -28,6 +28,10 @@ const ParticlesComponent = () => {
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
+        fullScreen: {
+          enable: true,
+          zIndex: -1,
+        },
         background: {
           color: {
             value: "#0d47a1",

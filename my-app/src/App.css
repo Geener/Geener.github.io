@@ -2,3 +2,11 @@
   margin: 0;
   padding: 0;
 }
+
+.particles {
+  z-index: -1;
+}
+
+.content {
+  z-index: 10;
+}
