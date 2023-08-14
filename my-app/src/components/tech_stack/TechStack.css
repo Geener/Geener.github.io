@@ -1,0 +1,25 @@
+.tech-stack {
+    display: flex;
+    justify-content: space-around;
+    background-color: azure;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    opacity: .9;
+}
+
+.icon {
+    filter: grayscale(100%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icon:hover {
+    filter: grayscale(0%);
+}
+
+.icon-image {
+    height: 75px;
+    width: 70px;
+}

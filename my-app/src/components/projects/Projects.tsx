@@ -4,7 +4,7 @@ import projects from "../../data/projects_data";
 const Projects = () => {
   return (
     <div>
-      <Slider title="Personal Projects" data={projects} />
+      <Slider header="Personal Projects" data={projects} />
     </div>
   );
 };

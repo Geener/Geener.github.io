@@ -8,55 +8,55 @@ import paddle_ball from "../images/projects/paddle_ball.jpg";
 interface projects_data {
   title: string;
   dates: string;
-  image_path: string;
+  img_path: string;
   description: string;
   link: string;
 }
 
 const McGill_GPT: projects_data = {
   title: "McGill GPT",
-  dates: "August 2023",
-  image_path: McGill_logo,
+  dates: "AUG 2023",
+  img_path: McGill_logo,
   description: "Got shit done",
   link: "www.google.com",
 };
 
 const Library_Management_app: projects_data = {
   title: "Library Management System",
-  dates: "December 2021",
-  image_path: TASLA,
+  dates: "DEC 2021",
+  img_path: TASLA,
   description: "Got shit done",
   link: "https://www.youtube.com/watch?v=l8PWKT_hY7M&ab_channel=AdamGeenen",
 };
 
 const Food_Order_app: projects_data = {
   title: "Custom Eats",
-  dates: "November 2021",
-  image_path: food_order,
+  dates: "NOV 2021",
+  img_path: food_order,
   description: "Got shit done",
   link: "/food-order-app",
 };
 
 const Hangman: projects_data = {
   title: "Hangman",
-  dates: "May 2021",
-  image_path: hangman,
+  dates: "MAY 2021",
+  img_path: hangman,
   description: "Got shit done",
   link: "https://hangmanboy.netlify.app/",
 };
 
 const Hangman_Twillio: projects_data = {
-  title: "Hangman Mobile",
-  dates: "January 2022",
-  image_path: hangman_twilio,
+  title: "Hangman",
+  dates: "JAN 2022",
+  img_path: hangman_twilio,
   description: "Got shit done",
   link: "https://youtu.be/t-ToQBkY5Mc",
 };
 
 const Paddle_Ball: projects_data = {
   title: "Paddle Ball",
-  dates: "December 2020",
-  image_path: paddle_ball,
+  dates: "DEC 2020",
+  img_path: paddle_ball,
   description: "Got shit done",
   link: "www.google.com",
 };

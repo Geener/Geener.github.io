@@ -3,7 +3,7 @@ import "./Slider.css";
 import { FC } from "react";
 
 interface propTypes {
-  title: string;
+  header: string;
   data: any;
 }
 
@@ -14,14 +14,14 @@ const Slider: FC<propTypes> = (props) => {
       subtitle={data.dates}
       key={data.name}
       link={data.link}
-      picture={data.image_path}
+      picture={data.img_path}
     />
   ));
 
   return (
     <div className="row-background">
       <div>
-        <h2 className="row-title">{props.title}</h2>
+        <h2 className="row-title">{props.header}</h2>
       </div>
       <div className="row">{posters}</div>
     </div>

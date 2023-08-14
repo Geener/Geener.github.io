@@ -34,20 +34,29 @@ const ParticlesComponent = () => {
         },
         background: {
           color: {
-            value: "#0d47a1",
+            value: "#00008B",
           },
         },
         fpsLimit: 120,
         interactivity: {
           events: {
             onClick: {
-              enable: true,
+              enable: false,
               mode: "push",
             },
             onHover: {
               enable: true,
               mode: "repulse",
             },
+            // onHover: {
+            //   enable: true,
+            //   mode: "grab",
+            //   parallax: {
+            //     enable: true,
+            //     force: 60,
+            //     smooth: 10,
+            //   },
+            // },
             resize: true,
           },
           modes: {
@@ -55,7 +64,7 @@ const ParticlesComponent = () => {
               quantity: 4,
             },
             repulse: {
-              distance: 200,
+              distance: 100,
               duration: 0.4,
             },
           },
@@ -78,7 +87,7 @@ const ParticlesComponent = () => {
               default: "bounce",
             },
             random: false,
-            speed: 6,
+            speed: 3,
             straight: false,
           },
           number: {
