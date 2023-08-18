@@ -4,7 +4,11 @@ import Slider from "../slider/Slider";
 const ExtraCurriculars = () => {
   return (
     <div>
-      <Slider header="Extra Curriculars" data={extraCurriculars} />
+      <Slider
+        header="Extra Curriculars"
+        data={extraCurriculars}
+        setIsInfoOpen={null}
+      />
     </div>
   );
 };

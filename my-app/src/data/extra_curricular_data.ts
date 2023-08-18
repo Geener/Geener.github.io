@@ -1,7 +1,7 @@
-import goldenKeyClub from "../images/extra_curriculars/goldenKeyClub.jfif";
+import goldenKeyClub from "../images/extra_curriculars/goldenKeyClub.png";
 import McHacksPic from "../images/extra_curriculars/McHacks.png";
 import BikingAdventuresPic from "../images/extra_curriculars/TheBikingAdventures.png";
-import TAMIDpic from "../images/extra_curriculars/TAMID.jpg";
+import TAMIDpic from "../images/extra_curriculars/TAMID.png";
 
 const extraCurriculars = [
   {

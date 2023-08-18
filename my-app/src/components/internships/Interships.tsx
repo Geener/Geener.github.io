@@ -1,10 +1,19 @@
 import Slider from "../slider/Slider";
 import internships from "../../data/internship_data";
+import { FC } from "react";
 
-const Internships = () => {
+interface propTypes {
+  setIsInfoOpen: (option: boolean) => any;
+}
+
+const Internships: FC<propTypes> = (props) => {
   return (
     <div>
-      <Slider header="Internships" data={internships} />
+      <Slider
+        header="Internships"
+        data={internships}
+        setIsInfoOpen={props.setIsInfoOpen}
+      />
     </div>
   );
 };

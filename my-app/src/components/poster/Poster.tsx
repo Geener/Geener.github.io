@@ -6,11 +6,17 @@ interface propTypes {
   subtitle: string;
   link: string;
   picture: string;
+  setIsInfoOpen: ((option: boolean) => any) | null;
 }
 
 const Poster: FC<propTypes> = (props) => {
   const linkHandler = () => {
-    window.open(props.link);
+    if (props.setIsInfoOpen === null) {
+      window.open(props.link);
+    } else {
+      console.log("OPENING MODAL");
+      props.setIsInfoOpen(true);
+    }
   };
 
   return (

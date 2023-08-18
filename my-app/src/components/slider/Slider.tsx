@@ -5,6 +5,7 @@ import { FC } from "react";
 interface propTypes {
   header: string;
   data: any;
+  setIsInfoOpen: ((option: boolean) => any) | null;
 }
 
 const Slider: FC<propTypes> = (props) => {
@@ -15,6 +16,7 @@ const Slider: FC<propTypes> = (props) => {
       key={data.name}
       link={data.link}
       picture={data.img_path}
+      setIsInfoOpen={props.setIsInfoOpen}
     />
   ));
 

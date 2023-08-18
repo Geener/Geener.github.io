@@ -3,7 +3,7 @@ import Slider from "../../components/slider/Slider";
 import "./TechStack.css";
 
 const TechStack = () => {
-  return <Slider header="Tech Stack" data={tech_stack} />;
+  return <Slider header="Tech Stack" data={tech_stack} setIsInfoOpen={null} />;
 };
 
 export default TechStack;
