@@ -6,7 +6,7 @@ import "./Profile.css";
 const PROFILE_DESCRIPTION: string[] = [
   "📍  Montreal, Canada",
   "✈️ Canadian and Dutch Citizenship",
-  "👨‍🎓 4th year Software Engineering @ McGill University (3.82 GPA)",
+  "👨‍🎓 4th year Software Engineering @ McGill University (3.82 GPA)  ",
 ];
 
 const Profile = () => {
