@@ -7,6 +7,7 @@ import "./Modal.css";
 interface propTypes {
   children: any;
   setIsInfoOpen: any;
+  shadowColor: string;
 }
 
 const Modal: FC<propTypes> = (props) => {
@@ -19,7 +20,9 @@ const Modal: FC<propTypes> = (props) => {
         portalElement
       )}
       {createPortal(
-        <ModalOverlay>{props.children}</ModalOverlay>,
+        <ModalOverlay shadowColor={props.shadowColor}>
+          {props.children}
+        </ModalOverlay>,
         portalElement
       )}
     </>

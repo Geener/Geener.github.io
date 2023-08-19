@@ -18,7 +18,7 @@
 .container img {
     min-width: 90px;
     min-height: 75px;
-    max-width: 300px;
+    max-width: 600px;
     max-height: 150px;
     transition: transform 450ms;
 }
@@ -29,7 +29,6 @@
 
 .container span {
     font-size: 20px;
-    margin-top: 5px;
 }
 
 #poster-title {

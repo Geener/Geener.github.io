@@ -7,6 +7,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.content {
+  margin-top: 50px;
+}
+
 .particles {
   z-index: -1;
 }

@@ -12,8 +12,14 @@ import reactPic from "../images/skills/react.png";
 import ocamlPic from "../images/skills/OCaml.png";
 import sqlPic from "../images/skills/sql.png";
 import cPic from "../images/skills/c.png";
+import numpyPic from "../images/skills/numpy.png";
+import pandasPic from "../images/skills/pandas.png";
+import matplotlibPic from "../images/skills/matplotlib.png";
+import seabornPic from "../images/skills/seaborn.png";
+import tensorflowPic from "../images/skills/tensorflow.png";
+import kerasPic from "../images/skills/keras.png";
 
-class TechItem {
+export class TechItem {
   title: string;
   dates: string;
   img_path: any;
@@ -23,7 +29,7 @@ class TechItem {
     title: string,
     img_path: string,
     dates: string = "",
-    link: string = ""
+    link: string = "nothing"
   ) {
     this.title = title;
     this.dates = dates;
@@ -46,22 +52,44 @@ const react = new TechItem("React", reactPic);
 const ocaml = new TechItem("OCaml", ocamlPic);
 const sql = new TechItem("SQL", sqlPic);
 const c = new TechItem("C", cPic);
+const numpy = new TechItem("NumPy", numpyPic);
+const pandas = new TechItem("Pandas", pandasPic);
+const matplotlib = new TechItem("Matplotlib", matplotlibPic);
+const seaborn = new TechItem("Seaborn", seabornPic);
+const tensorFlow = new TechItem("TensorFlow", tensorflowPic);
+const keras = new TechItem("Keras", kerasPic);
 
-const tech_stack: TechItem[] = [
+export const tech_stack: TechItem[] = [
   python,
   java,
   react,
   flutter,
   langchain,
+  node,
+  pandas,
   js,
+  numpy,
+  matplotlib,
+  seaborn,
   sql,
   ocaml,
+  tensorFlow,
   c,
   mongodb,
   linux,
-  node,
+  keras,
   html,
   css,
 ];
 
-export default tech_stack;
+export const EY_stack: TechItem[] = [python, react, flutter, langchain];
+
+export const HSBC_stack: TechItem[] = [
+  python,
+  pandas,
+  matplotlib,
+  seaborn,
+  tensorFlow,
+  keras,
+  numpy,
+];

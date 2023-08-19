@@ -16,9 +16,16 @@
   background-color: #333;
   padding: 1rem;
   border-radius: 14px;
-  box-shadow: 0 2px 8px rgb(0, 191, 255);
   z-index: 30;
   animation: slide-down 300ms ease-out forwards;
+}
+
+.hsbc {
+  box-shadow: 0 0 20px 5px #FE0000;
+}
+
+.ey {
+  box-shadow: 0 0 20px 5px #FFE700;
 }
 
 @media (min-width: 768px) {
@@ -37,4 +44,20 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.modal-intern {
+  color: azure;
+}
+
+.modal-intern-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intern-desc {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
