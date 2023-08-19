@@ -1,0 +1,38 @@
+.profile {
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 160px;
+    margin-right: 160px;
+    background-color: azure;
+    margin-bottom: 40px;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+}
+
+.profile-header a {
+    font-size: 50px;
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+}
+
+.profile-header a:hover  {
+    color: rgb(0, 157, 255);
+    cursor: pointer;
+}
+
+.profile-header span {
+    margin-left: 22px;
+    color: #333;
+    font-size: 45px;
+}
+
+.profile-description {
+    font-size: 20px;
+    margin-left: 22px;
+    padding-bottom: 10px;
+}

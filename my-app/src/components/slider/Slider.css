@@ -1,8 +1,6 @@
 .row-background {
     margin-left: 160px;
     margin-right: 160px;
-    margin-top: 20px;
-
 }
 
 .row-background:last-child {
@@ -24,7 +22,6 @@
     padding: 15px;
     background-color: rgba(240, 255, 255, 0.95);
     border-radius: 20px 20px 0px 0px;
-    margin-top: 5px;
 }
 
 /* width */

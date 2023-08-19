@@ -18,6 +18,7 @@ import matplotlibPic from "../images/skills/matplotlib.png";
 import seabornPic from "../images/skills/seaborn.png";
 import tensorflowPic from "../images/skills/tensorflow.png";
 import kerasPic from "../images/skills/keras.png";
+import typescriptPic from "../images/skills/typescript.png";
 
 export class TechItem {
   title: string;
@@ -28,8 +29,8 @@ export class TechItem {
   constructor(
     title: string,
     img_path: string,
-    dates: string = "",
-    link: string = "nothing"
+    link: string = "nothing",
+    dates: string = ""
   ) {
     this.title = title;
     this.dates = dates;
@@ -38,26 +39,59 @@ export class TechItem {
   }
 }
 
-const python = new TechItem("Python", pythonPic);
-const java = new TechItem("Java", javaPic);
-const flutter = new TechItem("Flutter", flutterPic);
-const langchain = new TechItem("LangChain", langchainPic);
-const js = new TechItem("JavaScript", jsPic);
-const mongodb = new TechItem("MongoDb", mongodbPic);
-const node = new TechItem("Node JS", nodePic);
-const html = new TechItem("HTML", htmlPic);
-const css = new TechItem("CSS", cssPic);
-const linux = new TechItem("Linux", linuxPic);
-const react = new TechItem("React", reactPic);
-const ocaml = new TechItem("OCaml", ocamlPic);
-const sql = new TechItem("SQL", sqlPic);
-const c = new TechItem("C", cPic);
-const numpy = new TechItem("NumPy", numpyPic);
-const pandas = new TechItem("Pandas", pandasPic);
-const matplotlib = new TechItem("Matplotlib", matplotlibPic);
-const seaborn = new TechItem("Seaborn", seabornPic);
-const tensorFlow = new TechItem("TensorFlow", tensorflowPic);
-const keras = new TechItem("Keras", kerasPic);
+const python = new TechItem("Python", pythonPic, "https://www.python.org/");
+const java = new TechItem("Java", javaPic, "https://dev.java/");
+const flutter = new TechItem("Flutter", flutterPic, "https://flutter.dev/");
+const langchain = new TechItem(
+  "LangChain",
+  langchainPic,
+  "https://python.langchain.com/docs/get_started/introduction.html"
+);
+const js = new TechItem("JavaScript", jsPic, "https://www.javascript.com/");
+const mongodb = new TechItem("MongoDb", mongodbPic, "https://www.mongodb.com/");
+const node = new TechItem("Node JS", nodePic, "https://nodejs.org/en");
+const html = new TechItem(
+  "HTML",
+  htmlPic,
+  "https://en.wikipedia.org/wiki/HTML"
+);
+const css = new TechItem("CSS", cssPic, "https://en.wikipedia.org/wiki/CSS");
+const linux = new TechItem(
+  "Linux",
+  linuxPic,
+  "https://en.wikipedia.org/wiki/Linux"
+);
+const react = new TechItem("React", reactPic, "https://react.dev/");
+const ocaml = new TechItem("OCaml", ocamlPic, "https://ocaml.org/");
+const sql = new TechItem("SQL", sqlPic, "https://en.wikipedia.org/wiki/SQL");
+const c = new TechItem(
+  "C",
+  cPic,
+  "https://en.wikipedia.org/wiki/C_(programming_language)"
+);
+const numpy = new TechItem("NumPy", numpyPic, "https://numpy.org/about/");
+const pandas = new TechItem("Pandas", pandasPic, "https://pandas.pydata.org/");
+const matplotlib = new TechItem(
+  "Matplotlib",
+  matplotlibPic,
+  "https://matplotlib.org/"
+);
+const seaborn = new TechItem(
+  "Seaborn",
+  seabornPic,
+  "https://seaborn.pydata.org/"
+);
+const tensorFlow = new TechItem(
+  "TensorFlow",
+  tensorflowPic,
+  "https://www.tensorflow.org/"
+);
+const keras = new TechItem("Keras", kerasPic, "https://keras.io/");
+const typescript = new TechItem(
+  "TypeScript",
+  typescriptPic,
+  "https://www.typescriptlang.org/"
+);
 
 export const tech_stack: TechItem[] = [
   python,
@@ -67,6 +101,7 @@ export const tech_stack: TechItem[] = [
   langchain,
   node,
   pandas,
+  typescript,
   js,
   numpy,
   matplotlib,
