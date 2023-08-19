@@ -15,20 +15,24 @@ const Profile = () => {
       <div className="profile-header">
         <span>Adam Geenen</span>
         <div>
-          <a href="https://github.com/Geener" target="_blank">
+          <a href="https://github.com/Geener" target="_blank" rel="noreferrer">
             <AiFillGithub />
           </a>
-          <a href="https://www.linkedin.com/in/adamgeenen/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/adamgeenen/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiFillLinkedin />
           </a>
-          <a href={CV} target="_blank">
+          <a href={CV} target="_blank" rel="noreferrer">
             <IoIosPaper />
           </a>
         </div>
       </div>
       <div className="profile-description">
         {PROFILE_DESCRIPTION.map((description) => (
-          <p>{description}</p>
+          <p key={description[5]}>{description}</p>
         ))}
       </div>
     </div>

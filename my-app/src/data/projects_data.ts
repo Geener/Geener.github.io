@@ -22,7 +22,7 @@ const McGill_GPT: projects_data = {
 };
 
 const Library_Management_app: projects_data = {
-  title: "Library Management System",
+  title: "Library Manager",
   dates: "DEC 2021",
   img_path: TASLA,
   description: "Got shit done",

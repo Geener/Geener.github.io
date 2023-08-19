@@ -31,7 +31,7 @@ const InternshipInfo: FC<propTypes> = (props) => {
     <Modal setIsInfoOpen={props.setIsInfoOpen} shadowColor={additionalClass}>
       <div className="modal-intern">
         <div className="modal-intern-titles">
-          <h2>{props.company}</h2>
+          <h1>{props.company}</h1>
           <h3>{props.position}</h3>
         </div>
         {displayDescription}

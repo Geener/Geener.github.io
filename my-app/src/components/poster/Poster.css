@@ -11,7 +11,6 @@
 }
 
 .container:hover {
-    cursor: pointer;
     opacity: 1;
 }
 
@@ -25,12 +24,14 @@
 
 .container img:hover {
     transform: scale(1.08);
+    cursor: pointer;
+
 }
 
 .container span {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #poster-title {
-    font-size: 15px;
+    font-size: 18px;
 }

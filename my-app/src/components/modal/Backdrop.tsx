@@ -7,7 +7,6 @@ interface propTypes {
 
 const Backdrop: FC<propTypes> = (props) => {
   const closeModel = () => {
-    console.log("CLOSING MODAL");
     props.setIsInfoOpen(false);
   };
 

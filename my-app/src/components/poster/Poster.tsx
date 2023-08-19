@@ -25,16 +25,15 @@ const Poster: FC<propTypes> = (props) => {
 
       // if want model to open
     } else {
-      console.log("OPENING MODAL");
       setIsInfoOpen(true);
     }
   };
 
   return (
     <>
-      <div className="container" onClick={linkHandler}>
+      <div className="container">
         <div className="img-container">
-          <img src={props.picture} alt={props.title} />
+          <img onClick={linkHandler} src={props.picture} alt={props.title} />
         </div>
         <span>{props.title}</span>
         {props.subtitle && <span id="poster-title">{props.subtitle}</span>}

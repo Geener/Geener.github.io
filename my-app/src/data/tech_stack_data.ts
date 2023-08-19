@@ -19,6 +19,7 @@ import seabornPic from "../images/skills/seaborn.png";
 import tensorflowPic from "../images/skills/tensorflow.png";
 import kerasPic from "../images/skills/keras.png";
 import typescriptPic from "../images/skills/typescript.png";
+import flaskPic from "../images/skills/flask.png";
 
 export class TechItem {
   title: string;
@@ -93,6 +94,12 @@ const typescript = new TechItem(
   "https://www.typescriptlang.org/"
 );
 
+const flask = new TechItem(
+  "Flask",
+  flaskPic,
+  "https://flask.palletsprojects.com/en/2.3.x/"
+);
+
 export const tech_stack: TechItem[] = [
   python,
   java,
@@ -108,6 +115,7 @@ export const tech_stack: TechItem[] = [
   seaborn,
   sql,
   ocaml,
+  flask,
   tensorFlow,
   c,
   mongodb,
