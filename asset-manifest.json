@@ -1,29 +1,35 @@
 {
   "files": {
     "main.css": "/static/css/main.7bdd6047.css",
-    "main.js": "/static/js/main.fbf73349.js",
+    "main.js": "/static/js/main.5e793d00.js",
     "static/media/TASLA.png": "/static/media/TASLA.9959f1dead008269eb72.png",
     "static/media/food_order.png": "/static/media/food_order.a88d207e57d09b2f7371.png",
     "static/media/hangman_twilio.png": "/static/media/hangman_twilio.dd42932ca3bab92aedb9.png",
+    "static/media/azure.png": "/static/media/azure.5a694f18b0e4f276ce48.png",
     "static/media/paddle_ball.jpg": "/static/media/paddle_ball.2805921654d19766807b.jpg",
     "static/media/matplotlib.png": "/static/media/matplotlib.f56b805848755700571c.png",
     "static/media/McGill_logo.png": "/static/media/McGill_logo.943ef7f3acf5ffdde689.png",
     "static/media/langchain.png": "/static/media/langchain.b6631459c6629ae7cae8.png",
     "static/media/java.png": "/static/media/java.ce59ccfc3dc2bcf31f5a.png",
     "static/media/python.png": "/static/media/python.49c4c5298daab61efe71.png",
-    "static/media/cv.pdf": "/static/media/cv.6d1382d18da2a8daf79f.pdf",
+    "static/media/cv.pdf": "/static/media/cv.d820ad83cf535df51062.pdf",
     "static/media/react.png": "/static/media/react.f6b89d232c9bc9f828e5.png",
+    "static/media/marchmadness.png": "/static/media/marchmadness.1538383abf10bde4919d.png",
     "static/media/TAMID.png": "/static/media/TAMID.91aa6f913c0982546666.png",
     "static/media/c.png": "/static/media/c.837a49116fe3c020f47d.png",
     "static/media/TheBikingAdventures.png": "/static/media/TheBikingAdventures.cce6b5b2b8b8e03b73c5.png",
     "static/media/typescript.png": "/static/media/typescript.1e3902edbe4c3f2970d8.png",
     "static/media/tensorflow.png": "/static/media/tensorflow.2e600df8bf7dc40e2886.png",
     "static/media/goldenKeyClub.png": "/static/media/goldenKeyClub.49db98b341e9dc088500.png",
+    "static/media/aws.png": "/static/media/aws.02dc7a254f99cacb937e.png",
     "static/media/McHacks.png": "/static/media/McHacks.f0fe61ad4e6431949d0c.png",
     "static/media/HSBC_logo.png": "/static/media/HSBC_logo.f0c2c416605f91acb329.png",
+    "static/media/bookclub.png": "/static/media/bookclub.2ea7e584eec8b423d4db.png",
     "static/media/flask.png": "/static/media/flask.cdc5ee7d512cc79cc73a.png",
     "static/media/EY_logo.png": "/static/media/EY_logo.9d45dedd9120abb6c57d.png",
     "static/media/flutter.png": "/static/media/flutter.3233b8fd66b708e7430b.png",
+    "static/media/scikit.png": "/static/media/scikit.46f0a91100a496cb1b2a.png",
+    "static/media/django.jpg": "/static/media/django.4c399895f677cd3bfbc8.jpg",
     "static/media/node.png": "/static/media/node.67fe328260b4c3b53f64.png",
     "static/media/seaborn.png": "/static/media/seaborn.f72634a028dcfdb43220.png",
     "static/media/mongodb.png": "/static/media/mongodb.efef3f59a0f61d7bf7a1.png",
@@ -33,10 +39,10 @@
     "static/media/keras.png": "/static/media/keras.26c2b48d9b03d275794f.png",
     "index.html": "/index.html",
     "main.7bdd6047.css.map": "/static/css/main.7bdd6047.css.map",
-    "main.fbf73349.js.map": "/static/js/main.fbf73349.js.map"
+    "main.5e793d00.js.map": "/static/js/main.5e793d00.js.map"
   },
   "entrypoints": [
     "static/css/main.7bdd6047.css",
-    "static/js/main.fbf73349.js"
+    "static/js/main.5e793d00.js"
   ]
 }
