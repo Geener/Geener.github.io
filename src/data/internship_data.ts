@@ -18,7 +18,7 @@ const EY: intership_data = {
   dates: "MAY - AUG 2023",
   img_path: EY_logo,
   description: [
-    "Independently developed a mobile app that utilized a Large Language Model (LLM) to promptly address user inquiries for a prestigious military group, resulting in contract negotiations valued at $800,000.",
+    "Independently developed a mobile app for a prestigious military group that utilized a Large Language Model (LLM) to promptly address user inquiries, resulting in contract negotiations valued at $800,000.",
     "Pioneered the implementation of a website which seamlessly integrates a LLM to operate locally, enabling users to  upload PDF documents for comprehensive inquiries without the need of an internet connection.",
     "Worked with Python, LangChain, Flutter, React, TypeScript, Flask",
   ],
@@ -33,7 +33,7 @@ const HSBC: intership_data = {
   img_path: HSBC_logo,
   description: [
     "Established an advanced pipeline for crafting synthetic time-series financial data via generative adversarial networks (GANs), achieving a synthetic data quality score of 91.",
-    "Utilized machine learning and data visualization techniques to analyze a dataset spanning hundreds of thousands of hours of server data, resulting in a 22% reduction in carbon emissions.",
+    "Utilized machine learning and data visualization techniques to analyze a dataset spanning hundreds of thousands of hours of server data, resulting in a 28% reduction in carbon emissions.",
     "Worked with Python, NumPy, Pandas, Matplotlib, Seaborn, TensorFlow, Keras",
   ],
   tech_stack: HSBC_stack,

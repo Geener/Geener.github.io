@@ -20,6 +20,11 @@ import tensorflowPic from "../images/skills/tensorflow.png";
 import kerasPic from "../images/skills/keras.png";
 import typescriptPic from "../images/skills/typescript.png";
 import flaskPic from "../images/skills/flask.png";
+import awsPic from "../images/skills/aws.png";
+import azurePic from "../images/skills/azure.png";
+import armPic from "../images/skills/arm.png";
+import djangoPic from "../images/skills/django.jpg";
+import scikitPic from "../images/skills/scikit.png";
 
 export class TechItem {
   title: string;
@@ -41,53 +46,70 @@ export class TechItem {
 }
 
 const python = new TechItem("Python", pythonPic, "https://www.python.org/");
+
 const java = new TechItem("Java", javaPic, "https://dev.java/");
+
 const flutter = new TechItem("Flutter", flutterPic, "https://flutter.dev/");
+
 const langchain = new TechItem(
   "LangChain",
   langchainPic,
   "https://python.langchain.com/docs/get_started/introduction.html"
 );
+
 const js = new TechItem("JavaScript", jsPic, "https://www.javascript.com/");
-const mongodb = new TechItem("MongoDb", mongodbPic, "https://www.mongodb.com/");
-const node = new TechItem("Node JS", nodePic, "https://nodejs.org/en");
+
+const mongodb = new TechItem("MongoDB", mongodbPic, "https://www.mongodb.com/");
+
+const node = new TechItem("Node.js", nodePic, "https://nodejs.org/en");
+
 const html = new TechItem(
   "HTML",
   htmlPic,
   "https://en.wikipedia.org/wiki/HTML"
 );
 const css = new TechItem("CSS", cssPic, "https://en.wikipedia.org/wiki/CSS");
+
 const linux = new TechItem(
   "Linux",
   linuxPic,
   "https://en.wikipedia.org/wiki/Linux"
 );
 const react = new TechItem("React", reactPic, "https://react.dev/");
+
 const ocaml = new TechItem("OCaml", ocamlPic, "https://ocaml.org/");
+
 const sql = new TechItem("SQL", sqlPic, "https://en.wikipedia.org/wiki/SQL");
+
 const c = new TechItem(
   "C",
   cPic,
   "https://en.wikipedia.org/wiki/C_(programming_language)"
 );
 const numpy = new TechItem("NumPy", numpyPic, "https://numpy.org/about/");
+
 const pandas = new TechItem("Pandas", pandasPic, "https://pandas.pydata.org/");
+
 const matplotlib = new TechItem(
   "Matplotlib",
   matplotlibPic,
   "https://matplotlib.org/"
 );
+
 const seaborn = new TechItem(
   "Seaborn",
   seabornPic,
   "https://seaborn.pydata.org/"
 );
+
 const tensorFlow = new TechItem(
   "TensorFlow",
   tensorflowPic,
   "https://www.tensorflow.org/"
 );
+
 const keras = new TechItem("Keras", kerasPic, "https://keras.io/");
+
 const typescript = new TechItem(
   "TypeScript",
   typescriptPic,
@@ -100,29 +122,60 @@ const flask = new TechItem(
   "https://flask.palletsprojects.com/en/2.3.x/"
 );
 
+const azure = new TechItem(
+  "Azure",
+  azurePic,
+  "https://azure.microsoft.com/en-ca"
+);
+
+const arm = new TechItem(
+  "ARMv7",
+  armPic,
+  "https://en.wikipedia.org/wiki/ARM_architecture_family"
+);
+
+const aws = new TechItem("AWS", awsPic, "https://aws.amazon.com/");
+
+const django = new TechItem(
+  "Django",
+  djangoPic,
+  "https://www.djangoproject.com/"
+);
+
+const scikit = new TechItem(
+  "Scikit-learn",
+  scikitPic,
+  "https://scikit-learn.org/stable/"
+);
+
 export const tech_stack: TechItem[] = [
   python,
   java,
   react,
-  flutter,
   langchain,
+  flutter,
   node,
   pandas,
   typescript,
   js,
   numpy,
+  css,
+  html,
   matplotlib,
   seaborn,
   sql,
   ocaml,
+  azure,
+  aws,
   flask,
-  tensorFlow,
   c,
+  scikit,
+  tensorFlow,
+  django,
   mongodb,
   linux,
+  arm,
   keras,
-  html,
-  css,
 ];
 
 export const EY_stack: TechItem[] = [python, react, flutter, langchain];
