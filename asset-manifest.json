@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7bdd6047.css",
-    "main.js": "/static/js/main.5e793d00.js",
+    "main.js": "/static/js/main.15037f6f.js",
     "static/media/TASLA.png": "/static/media/TASLA.9959f1dead008269eb72.png",
     "static/media/food_order.png": "/static/media/food_order.a88d207e57d09b2f7371.png",
     "static/media/hangman_twilio.png": "/static/media/hangman_twilio.dd42932ca3bab92aedb9.png",
@@ -12,7 +12,7 @@
     "static/media/langchain.png": "/static/media/langchain.b6631459c6629ae7cae8.png",
     "static/media/java.png": "/static/media/java.ce59ccfc3dc2bcf31f5a.png",
     "static/media/python.png": "/static/media/python.49c4c5298daab61efe71.png",
-    "static/media/cv.pdf": "/static/media/cv.d820ad83cf535df51062.pdf",
+    "static/media/cv.pdf": "/static/media/cv.09722e296f4aab57d40a.pdf",
     "static/media/react.png": "/static/media/react.f6b89d232c9bc9f828e5.png",
     "static/media/marchmadness.png": "/static/media/marchmadness.1538383abf10bde4919d.png",
     "static/media/TAMID.png": "/static/media/TAMID.91aa6f913c0982546666.png",
@@ -39,10 +39,10 @@
     "static/media/keras.png": "/static/media/keras.26c2b48d9b03d275794f.png",
     "index.html": "/index.html",
     "main.7bdd6047.css.map": "/static/css/main.7bdd6047.css.map",
-    "main.5e793d00.js.map": "/static/js/main.5e793d00.js.map"
+    "main.15037f6f.js.map": "/static/js/main.15037f6f.js.map"
   },
   "entrypoints": [
     "static/css/main.7bdd6047.css",
-    "static/js/main.5e793d00.js"
+    "static/js/main.15037f6f.js"
   ]
 }
