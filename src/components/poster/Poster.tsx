@@ -19,6 +19,7 @@ const Poster: FC<propTypes> = (props) => {
   const linkHandler = () => {
     // if dont want anything to happen
     if (props.link === "nothing") {
+      alert("No link available");
       // if theres a link
     } else if (props.link !== "") {
       window.open(props.link);

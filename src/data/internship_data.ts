@@ -18,9 +18,9 @@ const EY: intership_data = {
   dates: "MAY - AUG 2023",
   img_path: EY_logo,
   description: [
-    "Independently developed a mobile app for a prestigious military group that utilized a Large Language Model (LLM) to promptly address user inquiries, resulting in contract negotiations valued at $800,000.",
-    "Pioneered the implementation of a website which seamlessly integrates a LLM to operate locally, enabling users to  upload PDF documents for comprehensive inquiries without the need of an internet connection.",
-    "Worked with Python, LangChain, Flutter, React, TypeScript, Flask",
+    "Independently developed a mobile app for a prestigious military group that utilized a Large Language Model (LLM) topromptly address user inquiries, resulting in contract negotiations valued at $800,000.",
+    "Pioneered the implementation of a website that seamlessly integrates an LLM to operate locally, enabling users toupload PDF documents for comprehensive inquiries without the need for an internet connection.",
+    "Worked with Python, LangChain, Flutter, React, TypeScript, Azure, Flask",
   ],
   link: "",
   tech_stack: EY_stack,

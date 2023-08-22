@@ -18,7 +18,7 @@ const McGill_GPT: projects_data = {
   title: "McGill GPT",
   dates: "AUG 2023",
   img_path: McGill_logo,
-  link: "nothing",
+  link: "http://3.142.220.208:8502/",
 };
 
 const Library_Management_app: projects_data = {
