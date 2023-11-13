@@ -18,6 +18,8 @@ const InternshipInfo: FC<propTypes> = (props) => {
     additionalClass = "ey";
   } else if (props.company === "HSBC") {
     additionalClass = "hsbc";
+  } else if (props.company === "Coveo") {
+    additionalClass = "coveo";
   }
 
   const displayDescription = props.description.map((description: string) => (

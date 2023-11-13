@@ -28,6 +28,10 @@
   box-shadow: 0 0 20px 5px #FFE700;
 }
 
+.coveo {
+  box-shadow: 0 0 20px 5px #270054;
+}
+
 @media (min-width: 768px) {
   .modal {
     width: 40rem;
